@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">404 Error</h1>
+                <h2 class="text-center">Page Not Found</h2>
+                <p class="text-center">Sorry, the page you're looking for doesn't exist.</p>
+                <p class="text-center">
+                    <a href="{{ url_for('main.index') }}">Return to Dashboard</a>
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

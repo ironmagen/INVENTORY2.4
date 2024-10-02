@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Vendors</h1>
+<ul>
+    {% for vendor in vendors %}
+        <li>
+            {{ vendor.name }} ({{ vendor.email }})
+            <a href="{{ url_for('vendor_routes.update_vendor', id=vendor.id) }}">Update</a>
+            <form action="{{ url_for('vendor_routes.delete_vendor', id=vendor.id) }}" method="POST">
+                <input type="submit" value="Delete">
+            </form>
+        </li>
+    {% endfor %}
+</ul>
+<a href="{{ url_for('vendor_routes.create_vendor') }}">Create New Vendor</a>
+
+{% endblock %}

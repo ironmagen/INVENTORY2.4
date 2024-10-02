@@ -1,0 +1,358 @@
+[2024-09-30 21:41:02,699] INFO in database: Database initialized successfully.
+[2024-09-30 21:41:02,761] WARNING in _internal:  * Debugger is active!
+[2024-09-30 21:41:02,768] INFO in _internal:  * Debugger PIN: 123-938-781
+[2024-09-30 21:41:10,472] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 21:41:10] "[35m[1mGET /inventories HTTP/1.1[0m" 500 -
+[2024-09-30 21:41:10,490] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 21:41:10] "[36mGET /inventories?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-30 21:41:10,490] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 21:41:10] "[36mGET /inventories?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-30 21:41:10,511] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 21:41:10] "GET /inventories?__debugger__=yes&cmd=resource&f=console.png&s=Jd470RknuwyqYoWpszP5 HTTP/1.1" 200 -
+[2024-09-30 21:41:10,525] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 21:41:10] "[36mGET /inventories?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-30 21:45:36,403] INFO in _internal:  * Detected change in '/Users/ironmagen/inventory system/version2.4/app/routes/inventory_routes.py', reloading
+[2024-09-30 21:45:37,051] INFO in database: Database initialized successfully.
+[2024-09-30 21:46:34,101] INFO in database: Database initialized successfully.
+[2024-09-30 21:46:34,203] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 21:46:34,203] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 21:46:34,204] INFO in _internal:  * Restarting with stat
+[2024-09-30 21:46:34,553] INFO in database: Database initialized successfully.
+[2024-09-30 21:46:34,609] WARNING in _internal:  * Debugger is active!
+[2024-09-30 21:46:34,617] INFO in _internal:  * Debugger PIN: 123-938-781
+[2024-09-30 21:47:35,245] ERROR in inventory_routes: Error fetching inventories: (psycopg2.errors.UndefinedTable) relation "inventory" does not exist
+LINE 2: FROM inventory
+             ^
+
+[SQL: SELECT inventory.id AS inventory_id, inventory.item_name AS inventory_item_name, inventory.category_id AS inventory_category_id 
+FROM inventory]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2024-09-30 21:47:35,246] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 21:47:35] "[35m[1mGET /inventories HTTP/1.1[0m" 500 -
+[2024-09-30 21:50:45,056] INFO in _internal:  * Detected change in '/Users/ironmagen/inventory system/version2.4/app/models/inventory.py', reloading
+[2024-09-30 21:50:45,138] INFO in _internal:  * Restarting with stat
+[2024-09-30 21:50:45,685] INFO in database: Database initialized successfully.
+[2024-09-30 21:50:45,766] WARNING in _internal:  * Debugger is active!
+[2024-09-30 21:50:45,774] INFO in _internal:  * Debugger PIN: 123-938-781
+[2024-09-30 21:50:54,599] INFO in database: Database initialized successfully.
+[2024-09-30 21:50:54,665] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 21:50:54,665] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 21:50:54,666] INFO in _internal:  * Restarting with stat
+[2024-09-30 21:50:55,022] INFO in database: Database initialized successfully.
+[2024-09-30 21:50:55,081] WARNING in _internal:  * Debugger is active!
+[2024-09-30 21:50:55,087] INFO in _internal:  * Debugger PIN: 123-938-781
+[2024-09-30 21:53:05,673] INFO in _internal:  * Detected change in '/Users/ironmagen/inventory system/version2.4/run.py', reloading
+[2024-09-30 21:53:05,786] INFO in _internal:  * Restarting with stat
+[2024-09-30 21:53:06,310] INFO in database: Database initialized successfully.
+[2024-09-30 21:53:06,488] WARNING in _internal:  * Debugger is active!
+[2024-09-30 21:53:06,496] INFO in _internal:  * Debugger PIN: 123-938-781
+[2024-09-30 21:53:13,889] INFO in database: Database initialized successfully.
+[2024-09-30 21:53:13,972] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 21:53:13,973] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 21:53:13,973] INFO in _internal:  * Restarting with stat
+[2024-09-30 21:53:14,315] INFO in database: Database initialized successfully.
+[2024-09-30 21:53:14,388] WARNING in _internal:  * Debugger is active!
+[2024-09-30 21:53:14,395] INFO in _internal:  * Debugger PIN: 123-938-781
+[2024-09-30 21:54:09,751] INFO in _internal:  * Detected change in '/Users/ironmagen/inventory system/version2.4/run.py', reloading
+[2024-09-30 21:54:09,853] INFO in _internal:  * Restarting with stat
+[2024-09-30 21:54:10,399] INFO in database: Database initialized successfully.
+[2024-09-30 21:54:10,480] WARNING in _internal:  * Debugger is active!
+[2024-09-30 21:54:10,487] INFO in _internal:  * Debugger PIN: 123-938-781
+[2024-09-30 21:55:32,866] INFO in database: Database initialized successfully.
+[2024-09-30 21:55:32,947] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 21:55:32,947] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 21:57:44,874] INFO in database: Database initialized successfully.
+[2024-09-30 21:57:44,942] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 21:57:44,943] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 21:59:08,036] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 21:59:08] "GET /inventories HTTP/1.1" 200 -
+[2024-09-30 21:59:46,267] ERROR in inventory_routes: Error creating inventory: (psycopg2.errors.ForeignKeyViolation) insert or update on table "inventory" violates foreign key constraint "inventory_category_id_fkey"
+DETAIL:  Key (category_id)=(1) is not present in table "categories".
+
+[SQL: INSERT INTO inventory (item_name, category_id) VALUES (%(item_name)s, %(category_id)s) RETURNING inventory.id]
+[parameters: {'item_name': 'Test Item', 'category_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-09-30 21:59:46,268] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 21:59:46] "[35m[1mPOST /inventories HTTP/1.1[0m" 500 -
+[2024-09-30 22:01:58,704] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:01:58] "[35m[1mPOST /categories HTTP/1.1[0m" 500 -
+[2024-09-30 22:06:42,605] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:06:42] "[35m[1mPOST /categories HTTP/1.1[0m" 500 -
+[2024-09-30 22:08:40,303] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:08:40] "[35m[1mPOST /categories HTTP/1.1[0m" 201 -
+[2024-09-30 22:11:36,524] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:11:36] "GET /inventories HTTP/1.1" 200 -
+[2024-09-30 22:11:46,126] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:11:46] "GET / HTTP/1.1" 200 -
+[2024-09-30 22:11:48,392] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:11:48] "GET /categories HTTP/1.1" 200 -
+[2024-09-30 22:11:54,521] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:11:54] "GET / HTTP/1.1" 200 -
+[2024-09-30 22:11:57,448] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:11:57] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+[2024-09-30 22:11:57,465] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:11:57] "[36mGET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-30 22:11:57,466] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:11:57] "[36mGET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-30 22:11:57,476] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:11:57] "GET /orders?__debugger__=yes&cmd=resource&f=console.png&s=1Yk8C9RpPjrT4HfU8uT3 HTTP/1.1" 200 -
+[2024-09-30 22:11:57,500] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:11:57] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-30 22:14:28,999] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:14:28] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+[2024-09-30 22:14:29,008] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:14:29] "[36mGET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-30 22:14:29,008] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:14:29] "[36mGET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-30 22:14:29,013] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:14:29] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png&s=1Yk8C9RpPjrT4HfU8uT3 HTTP/1.1[0m" 304 -
+[2024-09-30 22:14:29,025] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:14:29] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-30 22:17:30,554] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:17:30] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+[2024-09-30 22:17:30,565] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:17:30] "[36mGET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-30 22:17:30,566] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:17:30] "[36mGET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-30 22:17:30,577] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:17:30] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png&s=1Yk8C9RpPjrT4HfU8uT3 HTTP/1.1[0m" 304 -
+[2024-09-30 22:17:30,587] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:17:30] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-30 22:17:54,275] INFO in database: Database initialized successfully.
+[2024-09-30 22:17:54,367] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 22:17:54,367] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 22:17:57,241] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:17:57] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+[2024-09-30 22:17:57,254] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:17:57] "[36mGET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-30 22:17:57,254] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:17:57] "[36mGET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-30 22:17:57,265] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:17:57] "GET /orders?__debugger__=yes&cmd=resource&f=console.png&s=eKFHrpBoD9Y1q0PkbEPN HTTP/1.1" 200 -
+[2024-09-30 22:17:57,272] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:17:57] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-30 22:20:33,553] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:20:33] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:20:39,848] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:20:39] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:20:43,882] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:20:43] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:29:45,714] INFO in database: Database initialized successfully.
+[2024-09-30 22:29:45,815] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 22:29:45,815] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 22:29:47,633] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:29:47] "GET / HTTP/1.1" 200 -
+[2024-09-30 22:29:50,470] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:29:50] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:29:51,766] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:29:51] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-09-30 22:29:51,778] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:29:51] "GET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-09-30 22:29:51,779] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:29:51] "GET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-09-30 22:29:51,788] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:29:51] "GET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=JJiNTXoCRAeQGUBFnBXv HTTP/1.1" 200 -
+[2024-09-30 22:29:51,805] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:29:51] "GET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-09-30 22:36:44,431] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:36:44] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-09-30 22:36:44,446] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:36:44] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-30 22:36:44,446] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:36:44] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-30 22:36:44,460] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:36:44] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=JJiNTXoCRAeQGUBFnBXv HTTP/1.1[0m" 304 -
+[2024-09-30 22:36:44,470] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:36:44] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-30 22:36:49,973] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:36:49] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:36:52,422] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:36:52] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-09-30 22:36:52,430] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:36:52] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-30 22:36:52,430] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:36:52] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-30 22:36:52,434] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:36:52] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=JJiNTXoCRAeQGUBFnBXv HTTP/1.1[0m" 304 -
+[2024-09-30 22:36:52,444] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:36:52] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-30 22:37:02,047] INFO in database: Database initialized successfully.
+[2024-09-30 22:37:02,147] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 22:37:02,147] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 22:37:07,684] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:37:07] "[33mGET /orders/ HTTP/1.1[0m" 404 -
+[2024-09-30 22:37:12,871] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:37:12] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+[2024-09-30 22:37:12,883] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:37:12] "[36mGET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-30 22:37:12,884] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:37:12] "[36mGET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-30 22:37:12,890] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:37:12] "GET /orders?__debugger__=yes&cmd=resource&f=console.png&s=pD1fOjqxsgb63tUICiPv HTTP/1.1" 200 -
+[2024-09-30 22:37:12,900] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:37:12] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-30 22:37:19,533] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:37:19] "[33mGET /order HTTP/1.1[0m" 404 -
+[2024-09-30 22:37:24,902] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:37:24] "GET / HTTP/1.1" 200 -
+[2024-09-30 22:37:35,447] INFO in database: Database initialized successfully.
+[2024-09-30 22:37:35,534] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 22:37:35,534] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 22:37:42,581] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:37:42] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+[2024-09-30 22:37:42,593] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:37:42] "[36mGET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-30 22:37:42,593] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:37:42] "[36mGET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-30 22:37:42,617] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:37:42] "GET /orders?__debugger__=yes&cmd=resource&f=console.png&s=rgIeXKgztGB5F49XjCGb HTTP/1.1" 200 -
+[2024-09-30 22:37:42,627] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:37:42] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-30 22:40:12,299] INFO in database: Database initialized successfully.
+[2024-09-30 22:40:12,403] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 22:40:12,403] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 22:40:19,459] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:40:19] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:40:21,227] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:40:21] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:40:27,329] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:40:27] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:41:29,528] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:41:29] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+[2024-09-30 22:41:29,542] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:41:29] "[36mGET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-30 22:41:29,543] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:41:29] "[36mGET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-30 22:41:29,555] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:41:29] "GET /orders?__debugger__=yes&cmd=resource&f=console.png&s=5xNVQRYnRt3kGp36zKul HTTP/1.1" 200 -
+[2024-09-30 22:41:29,563] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:41:29] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-30 22:45:59,891] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:45:59] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:46:01,602] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:46:01] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:46:57,024] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:46:57] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:46:58,019] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:46:58] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:48:54,375] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:48:54] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:49:03,830] INFO in database: Database initialized successfully.
+[2024-09-30 22:49:03,927] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 22:49:03,927] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 22:49:08,912] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:49:08] "GET / HTTP/1.1" 200 -
+[2024-09-30 22:49:11,801] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:49:11] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:49:12,640] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:49:12] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:52:40,597] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:52:40] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:53:02,439] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:53:02] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:53:04,375] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:53:04] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:53:05,624] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:53:05] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:53:08,392] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:53:08] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:53:11,110] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:53:11] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:53:13,202] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:53:13] "GET /vendors HTTP/1.1" 200 -
+[2024-09-30 22:53:17,998] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:53:17] "GET /inventories HTTP/1.1" 200 -
+[2024-09-30 22:53:21,099] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:53:21] "GET /categories HTTP/1.1" 200 -
+[2024-09-30 22:53:24,280] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:53:24] "GET / HTTP/1.1" 200 -
+[2024-09-30 22:53:27,899] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:53:27] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:53:28,932] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:53:28] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 22:56:42,442] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 22:56:42] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 23:03:44,891] ERROR in database: Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "inventory_manager_admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2024-09-30 23:04:51,032] ERROR in database: Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "inventory_manager_admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2024-09-30 23:06:24,123] ERROR in database: Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "inventory_manager_admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2024-09-30 23:08:03,461] ERROR in database: Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "inventory_manager_admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2024-09-30 23:08:27,265] ERROR in database: Database initialization failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "inventory_manager_admin"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+[2024-09-30 23:09:09,418] INFO in database: Database initialized successfully.
+[2024-09-30 23:09:09,562] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 23:09:09,562] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 23:23:37,035] INFO in database: Database initialized successfully.
+[2024-09-30 23:23:37,186] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 23:23:37,187] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 23:24:29,343] INFO in database: Database initialized successfully.
+[2024-09-30 23:24:29,485] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 23:24:29,485] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 23:25:06,172] INFO in database: Database initialized successfully.
+[2024-09-30 23:25:06,319] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 23:25:06,319] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 23:26:51,019] INFO in database: Database initialized successfully.
+[2024-09-30 23:26:51,116] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 23:26:51,116] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 23:26:59,531] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:26:59] "GET / HTTP/1.1" 200 -
+[2024-09-30 23:27:03,002] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:27:03] "GET /categories HTTP/1.1" 200 -
+[2024-09-30 23:27:07,864] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:27:07] "GET /inventories HTTP/1.1" 200 -
+[2024-09-30 23:27:10,786] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:27:10] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 23:27:12,945] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:27:12] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 23:34:26,165] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:34:26] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 23:34:28,495] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:34:28] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 23:38:01,234] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:38:01] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 23:38:02,923] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:38:02] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 23:41:42,586] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:41:42] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 23:41:43,941] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:41:43] "GET /inventories HTTP/1.1" 200 -
+[2024-09-30 23:41:48,943] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:41:48] "GET /vendors HTTP/1.1" 200 -
+[2024-09-30 23:41:52,484] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:41:52] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 23:41:56,536] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:41:56] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 23:43:27,952] INFO in database: Database initialized successfully.
+[2024-09-30 23:43:28,051] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 23:43:28,051] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 23:43:46,113] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:43:46] "GET / HTTP/1.1" 200 -
+[2024-09-30 23:43:48,029] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:43:48] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 23:43:49,415] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:43:49] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-09-30 23:43:49,430] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:43:49] "GET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-09-30 23:43:49,431] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:43:49] "GET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-09-30 23:43:49,454] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:43:49] "GET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=ISmWKmVyuTzpLNLxxTX6 HTTP/1.1" 200 -
+[2024-09-30 23:43:49,462] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:43:49] "GET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-09-30 23:47:59,375] INFO in database: Database initialized successfully.
+[2024-09-30 23:47:59,474] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-09-30 23:47:59,475] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-09-30 23:48:33,395] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:48:33] "GET / HTTP/1.1" 200 -
+[2024-09-30 23:48:35,129] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:48:35] "GET /orders HTTP/1.1" 200 -
+[2024-09-30 23:48:35,895] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:48:35] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-09-30 23:48:35,909] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:48:35] "GET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-09-30 23:48:35,909] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:48:35] "GET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-09-30 23:48:35,929] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:48:35] "GET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=7jLKic0aeEfwvsPa2EsS HTTP/1.1" 200 -
+[2024-09-30 23:48:35,938] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:48:35] "GET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-09-30 23:59:09,627] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:59:09] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-09-30 23:59:09,637] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:59:09] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-30 23:59:09,637] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:59:09] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-30 23:59:09,650] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:59:09] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=7jLKic0aeEfwvsPa2EsS HTTP/1.1[0m" 304 -
+[2024-09-30 23:59:09,661] INFO in _internal: 127.0.0.1 - - [30/Sep/2024 23:59:09] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:01:54,384] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:01:54] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-10-01 00:01:54,449] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:01:54] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:01:54,451] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:01:54] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:01:54,466] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:01:54] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=7jLKic0aeEfwvsPa2EsS HTTP/1.1[0m" 304 -
+[2024-10-01 00:01:54,480] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:01:54] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:06:59,768] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:06:59] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-10-01 00:06:59,781] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:06:59] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:06:59,783] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:06:59] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:06:59,788] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:06:59] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=7jLKic0aeEfwvsPa2EsS HTTP/1.1[0m" 304 -
+[2024-10-01 00:06:59,805] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:06:59] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:16:41,632] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:16:41] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-10-01 00:16:41,658] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:16:41] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:16:41,659] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:16:41] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:16:41,673] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:16:41] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=7jLKic0aeEfwvsPa2EsS HTTP/1.1[0m" 304 -
+[2024-10-01 00:16:41,683] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:16:41] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:16:43,411] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:16:43] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-10-01 00:16:43,418] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:16:43] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:16:43,419] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:16:43] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:16:43,423] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:16:43] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=7jLKic0aeEfwvsPa2EsS HTTP/1.1[0m" 304 -
+[2024-10-01 00:16:43,437] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:16:43] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:19:53,664] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:19:53] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-10-01 00:19:53,684] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:19:53] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:19:53,684] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:19:53] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:19:53,698] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:19:53] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=7jLKic0aeEfwvsPa2EsS HTTP/1.1[0m" 304 -
+[2024-10-01 00:19:53,709] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:19:53] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:19:58,201] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:19:58] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-10-01 00:19:58,210] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:19:58] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:19:58,210] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:19:58] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:19:58,218] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:19:58] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=7jLKic0aeEfwvsPa2EsS HTTP/1.1[0m" 304 -
+[2024-10-01 00:19:58,229] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:19:58] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:20:00,403] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:00] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-10-01 00:20:00,412] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:00] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:20:00,412] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:00] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:20:00,420] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:00] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=7jLKic0aeEfwvsPa2EsS HTTP/1.1[0m" 304 -
+[2024-10-01 00:20:00,432] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:00] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:20:08,871] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:08] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-10-01 00:20:08,880] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:08] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:20:08,880] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:08] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:20:08,884] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:08] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=7jLKic0aeEfwvsPa2EsS HTTP/1.1[0m" 304 -
+[2024-10-01 00:20:08,896] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:08] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:20:09,688] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:09] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-10-01 00:20:09,697] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:09] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:20:09,697] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:09] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:20:09,702] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:09] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=7jLKic0aeEfwvsPa2EsS HTTP/1.1[0m" 304 -
+[2024-10-01 00:20:09,713] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:20:09] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:22:34,200] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:22:34] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-10-01 00:22:34,226] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:22:34] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:22:34,226] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:22:34] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:22:34,233] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:22:34] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=7jLKic0aeEfwvsPa2EsS HTTP/1.1[0m" 304 -
+[2024-10-01 00:22:34,247] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:22:34] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:32:47,139] INFO in database: Database initialized successfully.
+[2024-10-01 00:32:47,243] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-10-01 00:32:47,255] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-10-01 00:32:51,791] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:32:51] "[35m[1mGET /orders/create HTTP/1.1[0m" 500 -
+[2024-10-01 00:32:51,807] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:32:51] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:32:51,807] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:32:51] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:32:51,815] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:32:51] "GET /orders/create?__debugger__=yes&cmd=resource&f=console.png&s=DIisYfKvzU8G6mzWzFqX HTTP/1.1" 200 -
+[2024-10-01 00:32:51,827] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:32:51] "[36mGET /orders/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:41:13,311] INFO in database: Database initialized successfully.
+[2024-10-01 00:41:13,415] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-10-01 00:41:13,415] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-10-01 00:41:38,544] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:41:38] "GET / HTTP/1.1" 200 -
+[2024-10-01 00:41:40,125] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:41:40] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+[2024-10-01 00:41:40,139] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:41:40] "GET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-10-01 00:41:40,139] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:41:40] "GET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-10-01 00:41:40,146] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:41:40] "GET /orders?__debugger__=yes&cmd=resource&f=console.png&s=wqTCcAWK3BxbpvV8YSTo HTTP/1.1" 200 -
+[2024-10-01 00:41:40,163] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:41:40] "GET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-10-01 00:44:00,225] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:44:00] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+[2024-10-01 00:44:00,250] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:44:00] "[36mGET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:44:00,251] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:44:00] "[36mGET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:44:00,275] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:44:00] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png&s=wqTCcAWK3BxbpvV8YSTo HTTP/1.1[0m" 304 -
+[2024-10-01 00:44:00,283] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:44:00] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:44:01,737] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:44:01] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+[2024-10-01 00:44:01,744] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:44:01] "[36mGET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:44:01,745] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:44:01] "[36mGET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:44:01,748] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:44:01] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png&s=wqTCcAWK3BxbpvV8YSTo HTTP/1.1[0m" 304 -
+[2024-10-01 00:44:01,754] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:44:01] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:46:54,809] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:46:54] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+[2024-10-01 00:46:54,827] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:46:54] "[36mGET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:46:54,828] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:46:54] "[36mGET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:46:54,832] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:46:54] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png&s=wqTCcAWK3BxbpvV8YSTo HTTP/1.1[0m" 304 -
+[2024-10-01 00:46:54,840] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:46:54] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 00:49:55,810] INFO in database: Database initialized successfully.
+[2024-10-01 00:49:55,908] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2024-10-01 00:49:55,908] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2024-10-01 00:50:10,010] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:50:10] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+[2024-10-01 00:50:10,027] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:50:10] "[36mGET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 00:50:10,028] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:50:10] "[36mGET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 00:50:10,039] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:50:10] "GET /orders?__debugger__=yes&cmd=resource&f=console.png&s=pvmo2b7jFWBOBcgMdxK8 HTTP/1.1" 200 -
+[2024-10-01 00:50:10,046] INFO in _internal: 127.0.0.1 - - [01/Oct/2024 00:50:10] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-10-01 09:34:40,045] INFO in database: Database initialized successfully.
+[2024-10-01 09:40:35,290] INFO in database: Database initialized successfully.

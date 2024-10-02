@@ -1,0 +1,45 @@
+<!-- dashboard.html -->
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Categories</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ categories_count }}</h6>
+                    <a href="{{ url_for('category_blueprint.get_all_categories') }}" class="card-link">View Categories</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Inventories</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ inventories_count }}</h6>
+                    <a href="{{ url_for('inventory_blueprint.get_all_inventories') }}" class="card-link">View Inventories</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Orders</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ orders_count }}</h6>
+                    <a href="{{ url_for('order_blueprint.get_all_orders') }}" class="card-link">View Orders</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Vendors</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ vendors_count }}</h6>
+                    <a href="{{ url_for('vendor_blueprint.get_all_vendors') }}" class="card-link">View Vendors</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

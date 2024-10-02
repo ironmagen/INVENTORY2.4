@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <h1>Edit Order {{ order.id }}</h1>
+  <form method="post">
+    {{ form.hidden_tag() }}
+    <p>
+      {{ form.inventory_id.label }}<br>
+      {{ form.inventory_id }}
+    </p>
+    <p>
+      {{ form.order_date.label }}<br>
+      {{ form.order_date }}
+    </p>
+    <p>
+      {{ form.quantity.label }}<br>
+      {{ form.quantity }}
+    </p>
+    <p>
+      {{ form.total_cost.label }}<br>
+      {{ form.total_cost }}
+    </p>
+    <p><input type="submit" value="Update Order"></p>
+  </form>
+
+{% endblock %}
